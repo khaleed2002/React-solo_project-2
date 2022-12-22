@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  margin:0;
+  padding: 0;
+  font-size: 10px;
+}
+
+nav{
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F55A5A;
+  color: #FFFFFF;
+}
+.nav--icon{
+  margin-right: 7px;
+  width: 24px;
+  height: 24px;
+}
+.travel-boxes{
+  width: 478px;
+  margin: 0 32px 0 40px;
+}
+.travel-box{
+  display: flex;
+  padding: 18px 0;
+  
+}
+.travel-boxes >:not(:last-child){
+  border-bottom: 1px solid #F5F5F5;
+}
+.travel-boxes >:first-child{
+  margin-top: 45px;
+  padding-top: 0;
+}
+.travel-box--img{
+  width: 125px;
+  height: 168px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+.travel-box--text{
+  width: 326px;
+  align-self: center;
+}
+.travel-box--location{
+  display: flex;
+  align-items: center;
+}
+.travel-box--locationIcon{
+  color: #F55A5A;
+}
+.travel-box--locationText{
+font-size: 10px;
+line-height: 12px;
+letter-spacing: 0.2em;
+color: #2B283A;
+
+}
+.travel-box--locationLink{
+  color: #918E9B;
+  margin-left: 12px;
+}
+
+.travel-box--locationName{
+  font-size: 25px;
+  color: #2B283A;
+  margin: 7px 0;
+  line-height: 30px;
+  height: 40px;
+
+}
+.travel-box--date{
+  font-weight: 700;
+  font-size: 10px;
+  color: #2B283A;  
+}
+
+.travel-box--description{
+
+font-weight: 400;
+font-size: 10px;
+line-height: 15px;
+color: #2B283A;
+margin-top: 9px;
+}
+
